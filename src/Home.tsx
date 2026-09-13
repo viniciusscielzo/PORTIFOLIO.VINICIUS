@@ -13,7 +13,7 @@ const mainMessage="Olá, Vinicius! Vi seu portfólio e gostaria de conversar sob
 const projects=[
  {id:"wi-fiber",title:"WI-FIBER",category:"Telecom",image:"/projects/wi-fiber.png",kind:"Redesign de site existente",live:"https://wi-fiber.vercel.app/"},
  {id:"meu-mundo-colorido",title:"Meu Mundo Colorido",category:"Educação infantil",image:"/projects/meu-mundo-colorido.png",kind:"Projeto criado do zero",live:"https://meumundocolorido.vercel.app/"},
- {id:"clínica-zauli",title:"Clínica Zauli",category:"Odontologia",image:"/projects/clinica-zauli.png",kind:"Projeto criado do zero",live:"https://clinicazauli-el3c.vercel.app/"},
+ {id:"clinica-zauli",title:"Clínica Zauli",category:"Odontologia",image:"/projects/clinica-zauli.png",kind:"Projeto criado do zero",live:"https://clinicazauli-el3c.vercel.app/"},
  {id:"atsoc",title:"ATSOC",category:"Serviços para provedores",image:"/projects/atsoc.png",kind:"Projeto criado do zero",live:"https://www.atsoc.com.br/"}
 ];
 const services=[
