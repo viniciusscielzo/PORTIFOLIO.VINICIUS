@@ -11,9 +11,10 @@ const whatsapp=(message:string)=>whatsappBase+encodeURIComponent(message);
 const mainMessage="Olá, Vinicius! Vi seu portfólio e gostaria de conversar sobre um site para minha empresa.";
 
 const projects=[
- {id:"wi-fiber",title:"WI-FIBER",category:"Telecom",image:"/projects/wi-fiber.png",kind:"Redesign de site existente",live:"https://wi-fiber.vercel.app/"},
- {id:"meu-mundo-colorido",title:"Meu Mundo Colorido",category:"Educação infantil",image:"/projects/meu-mundo-colorido.png",kind:"Projeto criado do zero",live:"https://meumundocolorido.vercel.app/"},
+ {id:"jose-paulino-contabilidade",title:"José Paulino Contabilidade",category:"Contabilidade",image:"/projects/jose-paulino-contabilidade.png",kind:"Projeto criado do zero",live:"https://josepaulinocontabilidade.vercel.app/"},
  {id:"clinica-zauli",title:"Clínica Zauli",category:"Odontologia",image:"/projects/clinica-zauli.png",kind:"Projeto criado do zero",live:"https://clinicazauli-el3c.vercel.app/"},
+ {id:"meu-mundo-colorido",title:"Meu Mundo Colorido",category:"Educação infantil",image:"/projects/meu-mundo-colorido.png",kind:"Projeto criado do zero",live:"https://meumundocolorido.vercel.app/"},
+ {id:"wi-fiber",title:"WI-FIBER",category:"Telecom",image:"/projects/wi-fiber.png",kind:"Redesign de site existente",live:"https://wi-fiber.vercel.app/"},
  {id:"atsoc",title:"ATSOC",category:"Serviços para provedores",image:"/projects/atsoc.png",kind:"Projeto criado do zero",live:"https://www.atsoc.com.br/"}
 ];
 const services=[
