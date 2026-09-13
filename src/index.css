@@ -85,7 +85,7 @@ footer>.bg-video{-webkit-mask-image:linear-gradient(to bottom,transparent 0%,rgb
 /* Final continuity and rail interaction refinements */
 .proposal-panel{background:rgba(7,10,14,.42);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);box-shadow:0 30px 85px rgba(0,0,0,.18)}
 .proposal-steps{background:transparent}.proposal-intro{background:linear-gradient(135deg,rgba(29,48,68,.32),rgba(7,10,14,.08) 72%)}
-.rail-card{display:block;cursor:pointer}.project-rail:hover .rail-track{animation-play-state:paused!important}.project-rail.dragging .rail-track{animation-play-state:paused!important}
+.rail-card{display:block;cursor:pointer}.rail-card>img,.rail-card>.rail-shade,.rail-card>.rail-info{pointer-events:none}.project-rail:hover .rail-track{animation-play-state:paused!important}.project-rail.dragging .rail-track{animation-play-state:paused!important}
 .projects-hero,.projects-cta,.pricing-hero{background-color:#04060a;background-image:linear-gradient(rgba(2,4,7,.18),rgba(2,4,7,.48)),url('/starfield.png');background-size:cover;background-position:center;background-attachment:fixed}
 .pricing-hero{position:relative;overflow:hidden;min-height:100vh;min-height:100svh;background-color:#04060a}.pricing-hero>.bg-video{-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 50%,rgba(0,0,0,.82) 68%,rgba(0,0,0,.3) 86%,transparent 100%);mask-image:linear-gradient(to bottom,#000 0%,#000 50%,rgba(0,0,0,.82) 68%,rgba(0,0,0,.3) 86%,transparent 100%)}
 .pricing-hero>.projects-cosmic-overlay{background:linear-gradient(180deg,rgba(0,0,0,.32),rgba(0,0,0,.38) 56%,rgba(4,6,10,.12) 82%,transparent 100%)}
