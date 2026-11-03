@@ -16,7 +16,7 @@ const projects=[
  {id:"meu-mundo-colorido",title:"Meu Mundo Colorido",category:"Educação infantil",image:"/projects/meu-mundo-colorido.png",kind:"Projeto criado do zero",live:"https://meumundocolorido.vercel.app/"},
  {id:"wi-fiber",title:"WI-FIBER",category:"Telecom",image:"/projects/wi-fiber.png",kind:"Redesign de site existente",live:"https://wi-fiber.vercel.app/"},
  {id:"atsoc",title:"ATSOC",category:"Serviços para provedores",image:"/projects/atsoc.png",kind:"Projeto criado do zero",live:"https://www.atsoc.com.br/"}
-];
+].filter(project => project.id !== "atsoc");
 const services=[
  ["01","Sites institucionais","Sites completos para apresentar sua empresa, serviços, diferenciais e canais de contato com clareza e profissionalismo."],
  ["02","Landing pages","Páginas direcionadas para campanhas, lançamentos ou ofertas, com estrutura focada em gerar contatos e oportunidades."],
