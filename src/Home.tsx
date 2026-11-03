@@ -11,7 +11,7 @@ const whatsapp=(message:string)=>whatsappBase+encodeURIComponent(message);
 const mainMessage="Olá, VS Studio! Gostaria de conversar sobre um projeto para minha empresa.";
 
 const projects=[
- {id:"jose-paulino-contabilidade",title:"José Paulino Contabilidade",category:"Contabilidade",image:"/projects/jose-paulino-contabilidade.png",kind:"Projeto criado do zero",live:"https://josepaulinocontabilidade.vercel.app/"},
+ {id:"jose-paulino-contabilidade",title:"José Paulino Contabilidade",category:"Contabilidade",image:"/projects/jose-paulino-contabilidade.png",kind:"Projeto criado do zero",live:"https://josepaulinocontabilidade.com.br/"},
  {id:"clinica-zauli",title:"Clínica Zauli",category:"Odontologia",image:"/projects/clinica-zauli.png",kind:"Projeto criado do zero",live:"https://clinicazauli-el3c.vercel.app/"},
  {id:"meu-mundo-colorido",title:"Meu Mundo Colorido",category:"Educação infantil",image:"/projects/meu-mundo-colorido.png",kind:"Projeto criado do zero",live:"https://meumundocolorido.vercel.app/"},
  {id:"wi-fiber",title:"WI-FIBER",category:"Telecom",image:"/projects/wi-fiber.png",kind:"Redesign de site existente",live:"https://wi-fiber.vercel.app/"},
